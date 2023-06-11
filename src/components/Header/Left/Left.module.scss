@@ -1,0 +1,25 @@
+.left {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.menu {
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in;
+
+  &:hover {
+    background-color: #707070;
+  }
+}
+
+.nav {
+  position: fixed;
+}

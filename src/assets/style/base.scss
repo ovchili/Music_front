@@ -1,0 +1,23 @@
+@use "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "StratosSkyEng", sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
