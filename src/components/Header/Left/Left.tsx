@@ -2,18 +2,21 @@ import Logo from "@/ui/Logo/Logo";
 import { TfiMenu } from "react-icons/tfi";
 
 import style from "./Left.module.scss";
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+
+import SideBar from "@/ui/SideBar/SideBar";
+import { useState } from "react";
+
 
 const Left = () => {
+
+  const [isActive, setIsActive] = useState(false);
   return (
     <section className={style.left}>
-      <nav className={style.nav}>
-        <NavLink to="/"> Главная</NavLink>
-        <NavLink to="/favorites">Мои Треки</NavLink>
-      </nav>
+      <SideBar setIsActive={setIsActive} isActive={isActive} />
       <section className={style.menu}>
-        <TfiMenu />
+        <TfiMenu onClick={()=>{
+          setIsActive(prev=>!prev)
+        }}/>
       </section>
       <Logo />
     </section>

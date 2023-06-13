@@ -1,0 +1,16 @@
+.center{
+    position: relative;
+}
+
+.search {
+    padding: 0.875rem 0 .875rem 3rem;
+    border-bottom: 1px solid #4E4E4E;
+    width: 1293px;
+    font-size: 1rem;
+
+    &__icon {
+        left: 1rem;
+        position: absolute;
+        top: 0.875rem;
+    }
+}
