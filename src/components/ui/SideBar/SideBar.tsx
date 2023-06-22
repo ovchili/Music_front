@@ -14,11 +14,11 @@ type SideBarProps = {
 const SideBar: FC<SideBarProps> = ({isActive, setIsActive}) => {
   const sideBarRef = useRef<HTMLDivElement>(null);
 
-  const clickOutsidehandler = () => {
+  const clickOutsideHandler = () => {
     setIsActive(false);
   };
 
-  useOnClickOutside(sideBarRef, clickOutsidehandler);
+  useOnClickOutside(sideBarRef, clickOutsideHandler);
 
 
   return (

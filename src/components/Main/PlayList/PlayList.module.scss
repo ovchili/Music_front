@@ -1,0 +1,38 @@
+.playlist {
+  width: 1136px;
+
+  &__header {
+    letter-spacing: 0.125rem;
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    color: #4e4e4e;
+  }
+
+  &__column {
+    display: flex;
+    width: 100px;
+    &:first-child {
+      flex-grow: 4;
+    }
+    &:nth-child(2) {
+      flex-grow: 3;
+    }
+    &:nth-child(3) {
+      flex-grow: 3;
+    }
+
+    &:last-child {
+      justify-content: end;
+    }
+  }
+
+  &__main {
+    margin: 14px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

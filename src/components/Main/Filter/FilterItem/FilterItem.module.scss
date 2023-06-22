@@ -1,0 +1,20 @@
+.item {
+  border: 1px solid #fff;
+  padding: 6px 20px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  text-transform: lowercase;
+  cursor: pointer;
+  transition: color 0.3s linear, border 0.3s linear;
+
+  &:hover {
+    color: #d9b6ff;
+    border-color: #d9b6ff;
+  }
+
+  &:active {
+    color: #ad61ff;
+    border-color: #ad61ff;
+  }
+}

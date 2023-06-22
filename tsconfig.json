@@ -24,6 +24,7 @@
       "@/assets/*": ["assets/*"],
       "@/components/*": ["components/*"],
       "@/configs/*": ["configs/*"],
+      "@/data/*": ["data/*"],
       "@/hooks/*": ["hooks/*"],
       "@/providers/*": ["providers/*"],
       "@/routers/*": ["routers/*"],

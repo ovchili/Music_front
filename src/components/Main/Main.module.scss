@@ -1,0 +1,17 @@
+.main {
+  margin-left: 294px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 3.75rem;
+  line-height: 4rem;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
